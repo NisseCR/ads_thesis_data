@@ -16,11 +16,7 @@ AUDIO_DATA_URL_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
-EXPECTED_OGG_FILENAMES = [
-    f"{track_number}{variant}.ogg"
-    for track_number in range(10)
-    for variant in ("a", "b")
-]
+MIN_SCENE_AUDIO_FILE_COUNT = 10
 
 
 def get_scene_manifest_paths() -> tuple[Path, Path]:
@@ -231,9 +227,22 @@ def capture_scene_audio_files(driver: WebDriver, url: str) -> list[dict[str, str
     """
     clear_performance_logs(driver)
     open_url(driver, url)
-    wait_random_seconds(10, 25)
+    wait_random_seconds(10, 30)
 
     return extract_audio_files_from_performance_logs(driver)
+
+
+def validate_scene_audio_file_count(
+    scene_name: str,
+    scene_url: str,
+    audio_files: list[dict[str, str]],
+) -> None:
+    """Raise an error when too few audio files are captured for a scene."""
+    if len(audio_files) < MIN_SCENE_AUDIO_FILE_COUNT:
+        raise RuntimeError(
+            f"Expected at least {MIN_SCENE_AUDIO_FILE_COUNT} audio files for "
+            f"scene '{scene_name}' at {scene_url}, but found {len(audio_files)}."
+        )
 
 
 def get_audio_folders(audio_files: list[dict[str, str]]) -> list[str]:
@@ -337,6 +346,7 @@ def process_scene(
     print_scene_capture_start(index, total_scenes, name)
 
     audio_files = capture_scene_audio_files(driver, url)
+    validate_scene_audio_file_count(name, url, audio_files)
     scene_manifest = build_scene_manifest_entry(scene, name, url, audio_files)
 
     print_scene_capture_summary(audio_files)

@@ -1,3 +1,10 @@
+EXPECTED_OGG_FILENAMES = [
+    f"{track_number}{variant}.ogg"
+    for track_number in range(10)
+    for variant in ("a", "b")
+]
+
+
 def build_audio_folder_manifest(
     scene_manifests: list[dict[str, object]],
 ) -> list[dict[str, object]]:
