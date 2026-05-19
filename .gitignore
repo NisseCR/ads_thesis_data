@@ -226,5 +226,5 @@ data/html/*
 !data/html/.gitkeep
 
 !data/manifest/
-data/manifest/*
+!data/manifest/*
 !data/manifest/.gitkeep

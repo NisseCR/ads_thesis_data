@@ -1,0 +1,2306 @@
+[
+  {
+    "name": "Distant Thunder",
+    "url": "https://mynoise.net/NoiseMachines/thunderNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Stormy Weather",
+    "url": "https://mynoise.net/NoiseMachines/stormSoundGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Fireplace",
+    "url": "https://mynoise.net/NoiseMachines/fireNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Rain on a Tent",
+    "url": "https://mynoise.net/NoiseMachines/campingRainNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Tin Roof Rain",
+    "url": "https://mynoise.net/NoiseMachines/tinRoofRainNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "White Rain",
+    "url": "https://mynoise.net/NoiseMachines/whiteRainNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Pebble Beach",
+    "url": "https://mynoise.net/NoiseMachines/pebbleBeachNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Night Thunder",
+    "url": "https://mynoise.net/NoiseMachines/summerNightThunderNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Rain Retreat",
+    "url": "https://mynoise.net/NoiseMachines/forestRainOnATentNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Unreal Ocean",
+    "url": "https://mynoise.net/NoiseMachines/oceanNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Organic White",
+    "url": "https://mynoise.net/NoiseMachines/organicWhiteNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Rain Noise",
+    "url": "https://mynoise.net/NoiseMachines/rainNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Cave Water",
+    "url": "https://mynoise.net/NoiseMachines/caveWaterNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Tropical Rain",
+    "url": "https://mynoise.net/NoiseMachines/tropicalRainNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Summer Night",
+    "url": "https://mynoise.net/NoiseMachines/ultrasonicNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Cat Purr",
+    "url": "https://mynoise.net/NoiseMachines/catPurrNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Wind Forest",
+    "url": "https://mynoise.net/NoiseMachines/windyForestNaturalNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Desert Wind",
+    "url": "https://mynoise.net/NoiseMachines/saharaWindNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Foliage Wind",
+    "url": "https://mynoise.net/NoiseMachines/poplarBirchWindNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Dark Water",
+    "url": "https://mynoise.net/NoiseMachines/caveExplorationNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Waterfall Noise",
+    "url": "https://mynoise.net/NoiseMachines/waterfallNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Mud Pots",
+    "url": "https://mynoise.net/NoiseMachines/geothermalHotMudSpringNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Jungle Life",
+    "url": "https://mynoise.net/NoiseMachines/jungleNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Rainforest",
+    "url": "https://mynoise.net/NoiseMachines/rainforestNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Unreal Wind",
+    "url": "https://mynoise.net/NoiseMachines/windNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Water Stream",
+    "url": "https://mynoise.net/NoiseMachines/waterStreamNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Crystal Stream",
+    "url": "https://mynoise.net/NoiseMachines/waterSpringStreamNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Wind on a Tent",
+    "url": "https://mynoise.net/NoiseMachines/sandStormDesertSoundGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Berkshire Waters",
+    "url": "https://mynoise.net/NoiseMachines/berkshiresWaterNaturalNoiseGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Hurricane",
+    "url": "https://mynoise.net/NoiseMachines/hurricaneSoundGenerator.php",
+    "category": "Natural Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "White Noise & Co",
+    "url": "https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Brownish White",
+    "url": "https://mynoise.net/NoiseMachines/notWhiteNoisePlayer.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Xenobiota",
+    "url": "https://mynoise.net/NoiseMachines/xenobiotaGenerativeNoise.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Impulse Noise",
+    "url": "https://mynoise.net/NoiseMachines/impulseNoiseGenerator.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Grey Noise",
+    "url": "https://mynoise.net/NoiseMachines/greyNoiseGenerator.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Sweep Noise",
+    "url": "https://mynoise.net/NoiseMachines/sweepNoiseGenerator.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Wide Noise",
+    "url": "https://mynoise.net/NoiseMachines/whiteNoisePlayerStereo.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Peak Noise",
+    "url": "https://mynoise.net/NoiseMachines/peakNoiseGenerator.php",
+    "category": "Synthetic Noises",
+    "is_tonal": true
+  },
+  {
+    "name": "Notch Noise",
+    "url": "https://mynoise.net/NoiseMachines/notchNoiseGenerator.php",
+    "category": "Synthetic Noises",
+    "is_tonal": true
+  },
+  {
+    "name": "White Bursts",
+    "url": "https://mynoise.net/NoiseMachines/whiteBurstsNoiseGenerator.php",
+    "category": "Synthetic Noises",
+    "is_tonal": false
+  },
+  {
+    "name": "Binaural Beats",
+    "url": "https://mynoise.net/NoiseMachines/binauralBrainwaveGenerator.php",
+    "category": "Experimental",
+    "is_tonal": true
+  },
+  {
+    "name": "40 Hertz",
+    "url": "https://mynoise.net/NoiseMachines/forty40HzBrainwaveGenerator.php",
+    "category": "Experimental",
+    "is_tonal": false
+  },
+  {
+    "name": "Binaural Harmonics",
+    "url": "https://mynoise.net/NoiseMachines/pureBinauralBrainwaveGenerator.php",
+    "category": "Experimental",
+    "is_tonal": true
+  },
+  {
+    "name": "Isochronic Tones",
+    "url": "https://mynoise.net/NoiseMachines/isochronicBrainwaveGenerator.php",
+    "category": "Experimental",
+    "is_tonal": true
+  },
+  {
+    "name": "Solfeggio Tones",
+    "url": "https://mynoise.net/NoiseMachines/solfeggioTonesGenerator.php",
+    "category": "Experimental",
+    "is_tonal": true
+  },
+  {
+    "name": "Aural Scan",
+    "url": "https://mynoise.net/NoiseMachines/auralScannerNoiseGenerator.php",
+    "category": "Experimental",
+    "is_tonal": true
+  },
+  {
+    "name": "Neuromodulator",
+    "url": "https://mynoise.net/NoiseMachines/neuromodulationTonesGenerator.php",
+    "category": "Experimental",
+    "is_tonal": true
+  },
+  {
+    "name": "Bilateral Harmonics",
+    "url": "https://mynoise.net/NoiseMachines/bilateralBrainwaveGenerator.php",
+    "category": "Experimental",
+    "is_tonal": true
+  },
+  {
+    "name": "Audio Jammer",
+    "url": "https://mynoise.net/NoiseMachines/audioJammerNoiseGenerator.php",
+    "category": "Experimental",
+    "is_tonal": false
+  },
+  {
+    "name": "Shepard Madness",
+    "url": "https://mynoise.net/NoiseMachines/shepardAudioIllusionToneGenerator.php",
+    "category": "Experimental",
+    "is_tonal": false
+  },
+  {
+    "name": "Japanese Garden",
+    "url": "https://mynoise.net/NoiseMachines/japaneseGardenSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Irish Coast",
+    "url": "https://mynoise.net/NoiseMachines/windSeaRainNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Primeval Forest",
+    "url": "https://mynoise.net/NoiseMachines/primevalEuropeanForestSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Healing Water",
+    "url": "https://mynoise.net/NoiseMachines/healingWaterSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Icelandic Shores",
+    "url": "https://mynoise.net/NoiseMachines/oceanWavesSeaShoreNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Morning Forest",
+    "url": "https://mynoise.net/NoiseMachines/belgianForestSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Meadow Land",
+    "url": "https://mynoise.net/NoiseMachines/meadowCreekSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Bamboo Garden",
+    "url": "https://mynoise.net/NoiseMachines/bambooGardenSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Mediterranean Garden",
+    "url": "https://mynoise.net/NoiseMachines/mediterraneanGardenSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Birds Valley",
+    "url": "https://mynoise.net/NoiseMachines/theBerkshiresUSANaturalSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Rainy Riverbank",
+    "url": "https://mynoise.net/NoiseMachines/rainyRiverbankSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Iceland White",
+    "url": "https://mynoise.net/NoiseMachines/icelandNaturalWhiteNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "The Falls",
+    "url": "https://mynoise.net/NoiseMachines/waterfallSoundGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Forêt Ouareau",
+    "url": "https://mynoise.net/NoiseMachines/canadaQuebecForestSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Northern Woodland",
+    "url": "https://mynoise.net/NoiseMachines/mooseForestSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Nocturnal Garden",
+    "url": "https://mynoise.net/NoiseMachines/palmGardenAtNightSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Palm Garden",
+    "url": "https://mynoise.net/NoiseMachines/palmGardenSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Land and Sea",
+    "url": "https://mynoise.net/NoiseMachines/betweenLandSeaRelaxingSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Thawing Forest",
+    "url": "https://mynoise.net/NoiseMachines/quebecForestThawSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Woodland Echoes",
+    "url": "https://mynoise.net/NoiseMachines/northAmericaForestSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "April Showers",
+    "url": "https://mynoise.net/NoiseMachines/streamRainWindBirdsSounds.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Calm Lake",
+    "url": "https://mynoise.net/NoiseMachines/loonLakeCanoeSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Whispering Trees",
+    "url": "https://mynoise.net/NoiseMachines/whisperingTreesForestSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Forest Breath",
+    "url": "https://mynoise.net/NoiseMachines/customForestBreath.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Aotearoa",
+    "url": "https://mynoise.net/NoiseMachines/newZealandSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Northern Forest",
+    "url": "https://mynoise.net/NoiseMachines/swedishForestSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Uganda Tales",
+    "url": "https://mynoise.net/NoiseMachines/ugandaAmbienceGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Intertidal",
+    "url": "https://mynoise.net/NoiseMachines/tidalNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Glacier Chorus",
+    "url": "https://mynoise.net/NoiseMachines/icelandicGlacierNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Estuary Island",
+    "url": "https://mynoise.net/NoiseMachines/ileAuxLievresQuebecForestSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Peninsula",
+    "url": "https://mynoise.net/NoiseMachines/distantSeaNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Vale dos Perdidos",
+    "url": "https://mynoise.net/NoiseMachines/portugalForestSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Levadas",
+    "url": "https://mynoise.net/NoiseMachines/levadaSoundGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Upstream",
+    "url": "https://mynoise.net/NoiseMachines/icelandicWaterflowNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Tierra Del Fuego",
+    "url": "https://mynoise.net/NoiseMachines/landOfFireNaturalSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Northern Wetlands",
+    "url": "https://mynoise.net/NoiseMachines/finnishForestSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Glacier Lagoon",
+    "url": "https://mynoise.net/NoiseMachines/glacierLagoonNaturalNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Moonlight Forest",
+    "url": "https://mynoise.net/NoiseMachines/fullMoonForestSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Steam Valley",
+    "url": "https://mynoise.net/NoiseMachines/reykjadalurValleyNaturalNoiseGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Bardenas Reales",
+    "url": "https://mynoise.net/NoiseMachines/bardenasRealesDesertSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "By The Lake",
+    "url": "https://mynoise.net/NoiseMachines/customByTheLake.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "La Réunion",
+    "url": "https://mynoise.net/NoiseMachines/reunionIslandSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Volcanic Island",
+    "url": "https://mynoise.net/NoiseMachines/mountYasurPacificIslandSoundscape.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Mountain Pasture",
+    "url": "https://mynoise.net/NoiseMachines/alpsMountainPastureSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Tropical Birds",
+    "url": "https://mynoise.net/NoiseMachines/tropicalForestAtDawnSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Arctic Wolves",
+    "url": "https://mynoise.net/NoiseMachines/arcticWolvesSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Brood X",
+    "url": "https://mynoise.net/NoiseMachines/broodXcicadaSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Ardennes Forest",
+    "url": "https://mynoise.net/NoiseMachines/wildBoarsBathSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Lively Lake",
+    "url": "https://mynoise.net/NoiseMachines/livelyLakeSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Grazeland",
+    "url": "https://mynoise.net/NoiseMachines/grasslandSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": true
+  },
+  {
+    "name": "Volcanic Prairies",
+    "url": "https://mynoise.net/NoiseMachines/cantalMeadowsSoundscapeGenerator.php",
+    "category": "Landscapes",
+    "is_tonal": false
+  },
+  {
+    "name": "Autumn Walk",
+    "url": "https://mynoise.net/NoiseMachines/autumnWalkSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Cosy Rain",
+    "url": "https://mynoise.net/NoiseMachines/customRainOnWindow.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Spring Walk",
+    "url": "https://mynoise.net/NoiseMachines/springWalkSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Winter Walk",
+    "url": "https://mynoise.net/NoiseMachines/winterSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Nightscape",
+    "url": "https://mynoise.net/NoiseMachines/customNightscape.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Underwater",
+    "url": "https://mynoise.net/NoiseMachines/finWhaleUnderwaterSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Bad Weather",
+    "url": "https://mynoise.net/NoiseMachines/customStormy.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Desert Night",
+    "url": "https://mynoise.net/NoiseMachines/desertNightSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "myNoisli",
+    "url": "https://mynoise.net/NoiseMachines/myNoisliSoundGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Spring Peepers",
+    "url": "https://mynoise.net/NoiseMachines/springPeepersForestSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Subaquatic Dreams",
+    "url": "https://mynoise.net/NoiseMachines/deepOceanSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Summer Walk",
+    "url": "https://mynoise.net/NoiseMachines/summerWalkSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Rice Fields",
+    "url": "https://mynoise.net/NoiseMachines/ricefieldSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Polar Expedition",
+    "url": "https://mynoise.net/NoiseMachines/polarExpeditionSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Down The Amazon",
+    "url": "https://mynoise.net/NoiseMachines/amazonRiverSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Fairy Pond",
+    "url": "https://mynoise.net/NoiseMachines/froggyPondSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Saharan Caravan",
+    "url": "https://mynoise.net/NoiseMachines/saharanCaravanSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "African Wildlife",
+    "url": "https://mynoise.net/NoiseMachines/georgeVladAfricaSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Noisy Farm",
+    "url": "https://mynoise.net/NoiseMachines/farmSoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Dolphins Colony",
+    "url": "https://mynoise.net/NoiseMachines/dolphinsColonySoundscapeGenerator.php",
+    "category": "Ambiences",
+    "is_tonal": false
+  },
+  {
+    "name": "Medieval Library",
+    "url": "https://mynoise.net/NoiseMachines/customMedievalLibrary.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Medieval Village",
+    "url": "https://mynoise.net/NoiseMachines/medievalVillageSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Sad Minstrel",
+    "url": "https://mynoise.net/NoiseMachines/medievalMinstrelSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Name of the Rose",
+    "url": "https://mynoise.net/NoiseMachines/customTheNameOfTheRose.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Dark Forest",
+    "url": "https://mynoise.net/NoiseMachines/enchantedForestSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Prehistory",
+    "url": "https://mynoise.net/NoiseMachines/prehistoricCavemenMusicGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": true
+  },
+  {
+    "name": "RPG Elements",
+    "url": "https://mynoise.net/NoiseMachines/elementsRPGSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Dark Dungeon",
+    "url": "https://mynoise.net/NoiseMachines/dungeonRPGSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Alchemist Lab",
+    "url": "https://mynoise.net/NoiseMachines/customAlchemistWorkshop.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Dark Noise",
+    "url": "https://mynoise.net/NoiseMachines/eerieSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "RPG Battlefield",
+    "url": "https://mynoise.net/NoiseMachines/battlefieldRPGSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Evil Charm",
+    "url": "https://mynoise.net/NoiseMachines/evilCharmRPGSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Ghost Town",
+    "url": "https://mynoise.net/NoiseMachines/westernGhostTownCowBoySteamTrain.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Poltergeist",
+    "url": "https://mynoise.net/NoiseMachines/poltergeistRPGSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Deserted",
+    "url": "https://mynoise.net/NoiseMachines/desertedSoundscapeGenerator.php",
+    "category": "Fantasy",
+    "is_tonal": false
+  },
+  {
+    "name": "Dunes Of Arrakis",
+    "url": "https://mynoise.net/NoiseMachines/magicDuneArrakisGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": true
+  },
+  {
+    "name": "Zen Garden",
+    "url": "https://mynoise.net/NoiseMachines/magicMeditationGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Mermaids Calling",
+    "url": "https://mynoise.net/NoiseMachines/magicSirenSongGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Space Odyssey",
+    "url": "https://mynoise.net/NoiseMachines/magicSpaceGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": true
+  },
+  {
+    "name": "日本",
+    "url": "https://mynoise.net/NoiseMachines/magicJapanGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Rainy Days",
+    "url": "https://mynoise.net/NoiseMachines/magicRainyDaysGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Calm Ocean",
+    "url": "https://mynoise.net/NoiseMachines/magicOceanGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Throat Ensemble",
+    "url": "https://mynoise.net/NoiseMachines/magicThoatVoicesGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Drone Zone",
+    "url": "https://mynoise.net/NoiseMachines/magicDroneGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": true
+  },
+  {
+    "name": "H2O",
+    "url": "https://mynoise.net/NoiseMachines/magicWaterGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Synthesized",
+    "url": "https://mynoise.net/NoiseMachines/magicSynthSoundsGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Healing Voices",
+    "url": "https://mynoise.net/NoiseMachines/magicVoicesGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Acoustic Experience",
+    "url": "https://mynoise.net/NoiseMachines/magicAcousticGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": true
+  },
+  {
+    "name": "Summer Night",
+    "url": "https://mynoise.net/NoiseMachines/magicLocustsGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Bird Calls",
+    "url": "https://mynoise.net/NoiseMachines/magicBirdSongsGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Windy Day",
+    "url": "https://mynoise.net/NoiseMachines/magicWindGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Frogs Only",
+    "url": "https://mynoise.net/NoiseMachines/magicFrogsGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Pure Nature",
+    "url": "https://mynoise.net/NoiseMachines/magicNatureGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Brain Hack",
+    "url": "https://mynoise.net/NoiseMachines/magicBrainHackGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Brooks & Streams",
+    "url": "https://mynoise.net/NoiseMachines/magicWaterStreamGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Forthcoming",
+    "url": "https://mynoise.net/NoiseMachines/magicEerieGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Noise Factory",
+    "url": "https://mynoise.net/NoiseMachines/magicIndustrialGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Lush Jungle",
+    "url": "https://mynoise.net/NoiseMachines/magicJungleGenerator.php",
+    "category": "℗Magic",
+    "is_tonal": false
+  },
+  {
+    "name": "Gregorian Chants",
+    "url": "https://mynoise.net/NoiseMachines/gregorianChoirGenerator.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "Silk and Hopes",
+    "url": "https://mynoise.net/NoiseMachines/raphaelAlongTheSilkRoad.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Deep Chant",
+    "url": "https://mynoise.net/NoiseMachines/deepVoiceSoundscape.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Oak Song",
+    "url": "https://mynoise.net/NoiseMachines/riikkaVocalSoundscape.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Forest Voice",
+    "url": "https://mynoise.net/NoiseMachines/voiceInTheWoods.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "In The Sky",
+    "url": "https://mynoise.net/NoiseMachines/enliaVocalSoundscape.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Calling Our Ancestors",
+    "url": "https://mynoise.net/NoiseMachines/kargyraaYoikMantraVocalDrone.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Into Light",
+    "url": "https://mynoise.net/NoiseMachines/imagoLatensVocalSoundscape.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Huu Chant",
+    "url": "https://mynoise.net/NoiseMachines/huuVocalSoundscape.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Into Balance",
+    "url": "https://mynoise.net/NoiseMachines/elGreyVocalSoundscape.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Yakutian Voices",
+    "url": "https://mynoise.net/NoiseMachines/zarinaKopyrinaVocalSoundscape.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "Mahican Song",
+    "url": "https://mynoise.net/NoiseMachines/standingEagleShawnStevensMohicanSong.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "Himalayan Voices",
+    "url": "https://mynoise.net/NoiseMachines/himalayanVoicesSongGenerator.php",
+    "category": "Vocal",
+    "is_tonal": true
+  },
+  {
+    "name": "ASMR Whisper",
+    "url": "https://mynoise.net/NoiseMachines/isabelleKnightHypnosisTalkGenerator.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "Chatter Noise",
+    "url": "https://mynoise.net/NoiseMachines/babbleNoiseGenerator.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "Rain Lullaby",
+    "url": "https://mynoise.net/NoiseMachines/shamanicRainLullaby.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "Langua d’Inspiratio",
+    "url": "https://mynoise.net/NoiseMachines/fantasyVoicesNoiseGenerator.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "Shusher",
+    "url": "https://mynoise.net/NoiseMachines/babySleepShushGenerator.php",
+    "category": "Vocal",
+    "is_tonal": false
+  },
+  {
+    "name": "The Pilgrim",
+    "url": "https://mynoise.net/NoiseMachines/tongueDrumSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Duduk Song",
+    "url": "https://mynoise.net/NoiseMachines/dudukSoundGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "88 Keys",
+    "url": "https://mynoise.net/NoiseMachines/acousticPianoSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Marimbas",
+    "url": "https://mynoise.net/NoiseMachines/benClarkMarimbaGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Silver Drift",
+    "url": "https://mynoise.net/NoiseMachines/benClarkVibraphoneSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "A New Day",
+    "url": "https://mynoise.net/NoiseMachines/acousticDroneAmbientMusic.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Hands of Time",
+    "url": "https://mynoise.net/NoiseMachines/handsOfTimeSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Piano Escape",
+    "url": "https://mynoise.net/NoiseMachines/pianoSoundscapePlayer.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Slow Vibes",
+    "url": "https://mynoise.net/NoiseMachines/benClarkVibraphoneGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Happy Place",
+    "url": "https://mynoise.net/NoiseMachines/customHappyPlace.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Lonesome Traveler",
+    "url": "https://mynoise.net/NoiseMachines/customLonesomeTraveler.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Chapel Voices",
+    "url": "https://mynoise.net/NoiseMachines/chapelVoicesSoundscape.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Call of the Andes",
+    "url": "https://mynoise.net/NoiseMachines/carlosCartyPanFluteGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Friends of Winter",
+    "url": "https://mynoise.net/NoiseMachines/eastAsiaTonalSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Mournful Chimes",
+    "url": "https://mynoise.net/NoiseMachines/koshiChimesGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Strings Above",
+    "url": "https://mynoise.net/NoiseMachines/preparedPianoSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Inspirational Morning",
+    "url": "https://mynoise.net/NoiseMachines/customInspirationalMorning.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Inner Gong",
+    "url": "https://mynoise.net/NoiseMachines/gongVibrationsMeditatationSoundscape.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Canyon Drone",
+    "url": "https://mynoise.net/NoiseMachines/canyonDroneGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Folk Tradition",
+    "url": "https://mynoise.net/NoiseMachines/remiDeckerDroneGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Gong Bath",
+    "url": "https://mynoise.net/NoiseMachines/reggieGongBathSoundscape.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Prelude",
+    "url": "https://mynoise.net/NoiseMachines/customOrchestralPrelude.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Himalayan Chapel",
+    "url": "https://mynoise.net/NoiseMachines/customHimalayanChapel.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Dreamcatcher",
+    "url": "https://mynoise.net/NoiseMachines/customDreamcatcher.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Sound Journey",
+    "url": "https://mynoise.net/NoiseMachines/bellSoundJourneyGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": true
+  },
+  {
+    "name": "Ionian Universe",
+    "url": "https://mynoise.net/NoiseMachines/ionianPianoSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Phrygian Universe",
+    "url": "https://mynoise.net/NoiseMachines/phrygianPianoSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Aeolian Universe",
+    "url": "https://mynoise.net/NoiseMachines/aeolianPianoSoundscapeGenerator.php",
+    "category": "Acoustic",
+    "is_tonal": false
+  },
+  {
+    "name": "Home Again",
+    "url": "https://mynoise.net/NoiseMachines/meditationMusicGenerator.php",
+    "category": "Cinematic",
+    "is_tonal": false
+  },
+  {
+    "name": "Japanese Oase",
+    "url": "https://mynoise.net/NoiseMachines/japaneseSuikinkutsuSoundscapeGenerator.php",
+    "category": "Cinematic",
+    "is_tonal": true
+  },
+  {
+    "name": "Cinematic East",
+    "url": "https://mynoise.net/NoiseMachines/cinematicEasternSoundscapeGenerator.php",
+    "category": "Cinematic",
+    "is_tonal": false
+  },
+  {
+    "name": "Solomon's Dream",
+    "url": "https://mynoise.net/NoiseMachines/middleEasternMusicGenerator.php",
+    "category": "Cinematic",
+    "is_tonal": false
+  },
+  {
+    "name": "Dark Seas",
+    "url": "https://mynoise.net/NoiseMachines/customDarkWaters.php",
+    "category": "Cinematic",
+    "is_tonal": false
+  },
+  {
+    "name": "A Long Way",
+    "url": "https://mynoise.net/NoiseMachines/customLongWaySoundscape.php",
+    "category": "Cinematic",
+    "is_tonal": true
+  },
+  {
+    "name": "Conquistadors",
+    "url": "https://mynoise.net/NoiseMachines/cinematicNativeFluteSoundscapeGenerator.php",
+    "category": "Cinematic",
+    "is_tonal": false
+  },
+  {
+    "name": "Heaven's Sorrow",
+    "url": "https://mynoise.net/NoiseMachines/customHeavensSorrow.php",
+    "category": "Cinematic",
+    "is_tonal": true
+  },
+  {
+    "name": "October's Veil",
+    "url": "https://mynoise.net/NoiseMachines/customOctobersVeilSoundscape.php",
+    "category": "Cinematic",
+    "is_tonal": true
+  },
+  {
+    "name": "Wolf's Heart",
+    "url": "https://mynoise.net/NoiseMachines/customWolfsHeart.php",
+    "category": "Cinematic",
+    "is_tonal": false
+  },
+  {
+    "name": "Tundra's Lament",
+    "url": "https://mynoise.net/NoiseMachines/northernLamentVocalSoundscape.php",
+    "category": "Cinematic",
+    "is_tonal": true
+  },
+  {
+    "name": "Tatsuo's Quest",
+    "url": "https://mynoise.net/NoiseMachines/customFeudalJapanSoundtrack.php",
+    "category": "Cinematic",
+    "is_tonal": true
+  },
+  {
+    "name": "Night Blue",
+    "url": "https://mynoise.net/NoiseMachines/blueJazzGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Shroom With a View",
+    "url": "https://mynoise.net/NoiseMachines/hanShroomMusicGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Mr. Rhodes",
+    "url": "https://mynoise.net/NoiseMachines/rhodesSoundscapeGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Tape Memories",
+    "url": "https://mynoise.net/NoiseMachines/oldTapeSoundscapeGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Telecaster Licks",
+    "url": "https://mynoise.net/NoiseMachines/telecasterLicksMusicGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Alpha Omega",
+    "url": "https://mynoise.net/NoiseMachines/darkAmbientGuitarSoundscape.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Cosmic Expansion",
+    "url": "https://mynoise.net/NoiseMachines/customGenesis.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "∞ Traveler",
+    "url": "https://mynoise.net/NoiseMachines/infiniteGuitarSpaceGenerator.php",
+    "category": "Electric",
+    "is_tonal": true
+  },
+  {
+    "name": "Guitar Mashup",
+    "url": "https://mynoise.net/NoiseMachines/guitarMashupMusicGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Route 50",
+    "url": "https://mynoise.net/NoiseMachines/route50BackgroundMusicGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Hold Da Note",
+    "url": "https://mynoise.net/NoiseMachines/boomBapJazzGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Memory Lane",
+    "url": "https://mynoise.net/NoiseMachines/memoryLaneGenerativeMusic.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Night Commute",
+    "url": "https://mynoise.net/NoiseMachines/customNightCommute.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Dancing Fireflies",
+    "url": "https://mynoise.net/NoiseMachines/dancingFirefliesSongGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Shiny Crazy Cluster",
+    "url": "https://mynoise.net/NoiseMachines/customPinkCluster.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Fading Memories",
+    "url": "https://mynoise.net/NoiseMachines/fadingMemoriesSoundscapeGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Brave World",
+    "url": "https://mynoise.net/NoiseMachines/braveWorldGenerativeMusic.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Passing Transition",
+    "url": "https://mynoise.net/NoiseMachines/customPassingTransition.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "Walking Through",
+    "url": "https://mynoise.net/NoiseMachines/downtempoBackgroundMusicGenerator.php",
+    "category": "Electric",
+    "is_tonal": false
+  },
+  {
+    "name": "The Architect's Eclipse",
+    "url": "https://mynoise.net/NoiseMachines/ionStreamSpaceAmbientGenerativeMusic.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Take It Easy",
+    "url": "https://mynoise.net/NoiseMachines/paulNagleSequenceGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Neon Voyager",
+    "url": "https://mynoise.net/NoiseMachines/retroSpaceElectroSoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Psynesthesia",
+    "url": "https://mynoise.net/NoiseMachines/ambientPsytranceMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Now Loading...",
+    "url": "https://mynoise.net/NoiseMachines/loadingScreenSoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Black Lodges",
+    "url": "https://mynoise.net/NoiseMachines/twinBlackLodgesSoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Do Not Break",
+    "url": "https://mynoise.net/NoiseMachines/drumAndBassAmbientMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "EDM²",
+    "url": "https://mynoise.net/NoiseMachines/tranceMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Dissociative Trance",
+    "url": "https://mynoise.net/NoiseMachines/dissociativeTranceMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Quantum Polarity",
+    "url": "https://mynoise.net/NoiseMachines/coolQuantifyMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Black Hole",
+    "url": "https://mynoise.net/NoiseMachines/intergalacticSoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": true
+  },
+  {
+    "name": "Indigo Amanita",
+    "url": "https://mynoise.net/NoiseMachines/goaTranceMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Drifting Away",
+    "url": "https://mynoise.net/NoiseMachines/customDriftingAway.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Nyquist Frontier",
+    "url": "https://mynoise.net/NoiseMachines/backToThe80sMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Azure Trails",
+    "url": "https://mynoise.net/NoiseMachines/stateAzureElectronicMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Implanted Memories",
+    "url": "https://mynoise.net/NoiseMachines/november2019SoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Endless Horizons",
+    "url": "https://mynoise.net/NoiseMachines/endlessPolarityMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Circuit Rhythm",
+    "url": "https://mynoise.net/NoiseMachines/circuitRhythmMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Electric Sheep",
+    "url": "https://mynoise.net/NoiseMachines/customElectricSheep.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Saturn Rings",
+    "url": "https://mynoise.net/NoiseMachines/danaFortierSoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": true
+  },
+  {
+    "name": "Modular Life",
+    "url": "https://mynoise.net/NoiseMachines/modularDroneGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": true
+  },
+  {
+    "name": "Hydrogen XII",
+    "url": "https://mynoise.net/NoiseMachines/hydrogenSequenceGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Klang Machines",
+    "url": "https://mynoise.net/NoiseMachines/analogSynthesizersMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Black Lyra",
+    "url": "https://mynoise.net/NoiseMachines/blackLyraSoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": true
+  },
+  {
+    "name": "Slow Motion",
+    "url": "https://mynoise.net/NoiseMachines/slowMotionSequenceGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Mind's Ear",
+    "url": "https://mynoise.net/NoiseMachines/mindsEarSoundscapeGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Space Exploration",
+    "url": "https://mynoise.net/NoiseMachines/spaceExplorationMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Undercover",
+    "url": "https://mynoise.net/NoiseMachines/productivityMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Enigmatic",
+    "url": "https://mynoise.net/NoiseMachines/customEnigmatic.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "A Different Run",
+    "url": "https://mynoise.net/NoiseMachines/runningSequenceAnalogModularMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Voltage Bytes",
+    "url": "https://mynoise.net/NoiseMachines/voltageSynthesizersMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Pulse Probe",
+    "url": "https://mynoise.net/NoiseMachines/customPulseProbe.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Atomic City",
+    "url": "https://mynoise.net/NoiseMachines/atomicCitySequenceGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Pripyat",
+    "url": "https://mynoise.net/NoiseMachines/customPripyat.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Space Gazer",
+    "url": "https://mynoise.net/NoiseMachines/customSpaceGazer.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Circuit Bend",
+    "url": "https://mynoise.net/NoiseMachines/transistorRhythmGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Silent Countdown",
+    "url": "https://mynoise.net/NoiseMachines/silentCountdownAmbientMusicGenerator.php",
+    "category": "Synthesizers",
+    "is_tonal": false
+  },
+  {
+    "name": "Floating",
+    "url": "https://mynoise.net/NoiseMachines/deepRelaxingAmbientSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Sleeping Dragon",
+    "url": "https://mynoise.net/NoiseMachines/sleepingDragonToneGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Osmosis",
+    "url": "https://mynoise.net/NoiseMachines/osmosisDroneGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Dreaming Nautilus",
+    "url": "https://mynoise.net/NoiseMachines/dreamingNautilusGenerativeSoundscape.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Anamnesis",
+    "url": "https://mynoise.net/NoiseMachines/anamnesisSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Minimalism",
+    "url": "https://mynoise.net/NoiseMachines/customMinimalism.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Twilight",
+    "url": "https://mynoise.net/NoiseMachines/twilightSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Subconscious Subway",
+    "url": "https://mynoise.net/NoiseMachines/undergroundOfTheMindSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Aeternitas",
+    "url": "https://mynoise.net/NoiseMachines/infiniteChoirDroneGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Imaginary Reality",
+    "url": "https://mynoise.net/NoiseMachines/customWillink.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Auroral Swirls",
+    "url": "https://mynoise.net/NoiseMachines/auroralSwirlsGenerativeSoundscape.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Kalimba Echoes",
+    "url": "https://mynoise.net/NoiseMachines/kalimbascapeGenerativeMusic.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Intangible Substance",
+    "url": "https://mynoise.net/NoiseMachines/substanceAmbientMusicGenerator.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Code Breaker",
+    "url": "https://mynoise.net/NoiseMachines/codeBreakerNoiseGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Oblivion",
+    "url": "https://mynoise.net/NoiseMachines/oblivionSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Stardust",
+    "url": "https://mynoise.net/NoiseMachines/stardustDroneGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Nocturnion",
+    "url": "https://mynoise.net/NoiseMachines/nocturnionSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Circular Breeze",
+    "url": "https://mynoise.net/NoiseMachines/circularBreathSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Shade",
+    "url": "https://mynoise.net/NoiseMachines/customShade.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Ancient Kasbah",
+    "url": "https://mynoise.net/NoiseMachines/ancientKasbahSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Bells Breath",
+    "url": "https://mynoise.net/NoiseMachines/usenbenzSoundDesignGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "A Trip of Mind",
+    "url": "https://mynoise.net/NoiseMachines/tripOfMindNoiseGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Ominous",
+    "url": "https://mynoise.net/NoiseMachines/waterphoneSoundscapeGenerator.php",
+    "category": "Ambient",
+    "is_tonal": false
+  },
+  {
+    "name": "Perception Cloud",
+    "url": "https://mynoise.net/NoiseMachines/frankHellNoiseGenerator.php",
+    "category": "Ambient",
+    "is_tonal": true
+  },
+  {
+    "name": "Tibetan Spirit",
+    "url": "https://mynoise.net/NoiseMachines/tibetSoundscapeGenerator.php",
+    "category": "Traditional",
+    "is_tonal": true
+  },
+  {
+    "name": "Berber Tent",
+    "url": "https://mynoise.net/NoiseMachines/berberTentSoundscapeGenerator.php",
+    "category": "Traditional",
+    "is_tonal": false
+  },
+  {
+    "name": "Finnish Sauna",
+    "url": "https://mynoise.net/NoiseMachines/finnishSaunaSoundscapeGenerator.php",
+    "category": "Traditional",
+    "is_tonal": false
+  },
+  {
+    "name": "Buddhist Chants",
+    "url": "https://mynoise.net/NoiseMachines/buddhistTempleCeremonySoundscapeGenerator.php",
+    "category": "Traditional",
+    "is_tonal": true
+  },
+  {
+    "name": "Japanese Heritage",
+    "url": "https://mynoise.net/NoiseMachines/japaneseShrineSoundscapeGenerator.php",
+    "category": "Traditional",
+    "is_tonal": false
+  },
+  {
+    "name": "From India",
+    "url": "https://mynoise.net/NoiseMachines/ramaSundarIndianSongGenerator.php",
+    "category": "Traditional",
+    "is_tonal": false
+  },
+  {
+    "name": "Polders Windmill",
+    "url": "https://mynoise.net/NoiseMachines/windmillSoundscapeGenerator.php",
+    "category": "Traditional",
+    "is_tonal": false
+  },
+  {
+    "name": "Sled Dogs",
+    "url": "https://mynoise.net/NoiseMachines/sledDogsSoundscapeGenerator.php",
+    "category": "Traditional",
+    "is_tonal": false
+  },
+  {
+    "name": "Cafe Restaurant",
+    "url": "https://mynoise.net/NoiseMachines/cafeRestaurantNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Calm Office",
+    "url": "https://mynoise.net/NoiseMachines/openOfficeNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Car Interior",
+    "url": "https://mynoise.net/NoiseMachines/carInteriorSoundscapeGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Vintage Office",
+    "url": "https://mynoise.net/NoiseMachines/vintageOfficeNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Church",
+    "url": "https://mynoise.net/NoiseMachines/churchAtmosphereSoundGenerator.php",
+    "category": "Spaces",
+    "is_tonal": true
+  },
+  {
+    "name": "Old Mansion",
+    "url": "https://mynoise.net/NoiseMachines/hauntedHouseSoundGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Laundromat",
+    "url": "https://mynoise.net/NoiseMachines/laundromatNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Local Bar",
+    "url": "https://mynoise.net/NoiseMachines/jazzBarNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Windy Mansion",
+    "url": "https://mynoise.net/NoiseMachines/windyManorSoundGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Shower Room",
+    "url": "https://mynoise.net/NoiseMachines/showerNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Examination Time",
+    "url": "https://mynoise.net/NoiseMachines/examinationClassroomNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Bath Noise",
+    "url": "https://mynoise.net/NoiseMachines/romanBathWhiteNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Airport Terminal",
+    "url": "https://mynoise.net/NoiseMachines/airportTerminalNoiseGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "In Utero",
+    "url": "https://mynoise.net/NoiseMachines/inUteroSoundGenerator.php",
+    "category": "Spaces",
+    "is_tonal": false
+  },
+  {
+    "name": "Data Center",
+    "url": "https://mynoise.net/NoiseMachines/dataCenterNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Fan Noise",
+    "url": "https://mynoise.net/NoiseMachines/fanNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Vinyl Groove",
+    "url": "https://mynoise.net/NoiseMachines/dustyScratchedVinylNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Steel Mill",
+    "url": "https://mynoise.net/NoiseMachines/steelMillNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Fish Tank (US)",
+    "url": "https://mynoise.net/NoiseMachines/60HzFishTankNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": true
+  },
+  {
+    "name": "Factory",
+    "url": "https://mynoise.net/NoiseMachines/industrialRevolutionNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Tape Hiss",
+    "url": "https://mynoise.net/NoiseMachines/analogTapeCassetteHisslNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Demolition Site",
+    "url": "https://mynoise.net/NoiseMachines/demolitionWorkNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Fish Tank (EU)",
+    "url": "https://mynoise.net/NoiseMachines/50HzFishTankNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": true
+  },
+  {
+    "name": "Fireworks",
+    "url": "https://mynoise.net/NoiseMachines/fireworksNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Fab Lab",
+    "url": "https://mynoise.net/NoiseMachines/fablabNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": false
+  },
+  {
+    "name": "Hum Noise (US)",
+    "url": "https://mynoise.net/NoiseMachines/60HzHumNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": true
+  },
+  {
+    "name": "Hum Noise (EU)",
+    "url": "https://mynoise.net/NoiseMachines/50HzHumNoiseGenerator.php",
+    "category": "Industrial",
+    "is_tonal": true
+  },
+  {
+    "name": "Railroads",
+    "url": "https://mynoise.net/NoiseMachines/railroadNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Spaceship",
+    "url": "https://mynoise.net/NoiseMachines/spaceshipNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": true
+  },
+  {
+    "name": "Flying Fortress",
+    "url": "https://mynoise.net/NoiseMachines/propellerNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Sailboat",
+    "url": "https://mynoise.net/NoiseMachines/squeakingSailboatSoundscapeGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Aircraft Cabin",
+    "url": "https://mynoise.net/NoiseMachines/cabinNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Tanker At Sea",
+    "url": "https://mynoise.net/NoiseMachines/roughSeaTankerCabinSoundscapeGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Modern Spaceship",
+    "url": "https://mynoise.net/NoiseMachines/modernSpaceshipNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": true
+  },
+  {
+    "name": "Ferryboat",
+    "url": "https://mynoise.net/NoiseMachines/ferryboatSoundscapeGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Yacht",
+    "url": "https://mynoise.net/NoiseMachines/offshoreYachtSoundscapeGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Oil Tanker",
+    "url": "https://mynoise.net/NoiseMachines/oilTankerMachineryNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Paraglide",
+    "url": "https://mynoise.net/NoiseMachines/howlingParaglideSoundscapeGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Formula Race",
+    "url": "https://mynoise.net/NoiseMachines/raceCarsNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "GT Race",
+    "url": "https://mynoise.net/NoiseMachines/GTraceCarsNoiseGenerator.php",
+    "category": "Transports",
+    "is_tonal": false
+  },
+  {
+    "name": "Wet Asphalt",
+    "url": "https://mynoise.net/NoiseMachines/urbanRainSoundGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "City Rain",
+    "url": "https://mynoise.net/NoiseMachines/customRainInTheCity.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Senegal Town",
+    "url": "https://mynoise.net/NoiseMachines/senegalUrbanLifeAmbienceGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Sherbrooke Str",
+    "url": "https://mynoise.net/NoiseMachines/sherbrookeStreetAmbienceGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Port Town",
+    "url": "https://mynoise.net/NoiseMachines/harborSoundscapeGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Suburb",
+    "url": "https://mynoise.net/NoiseMachines/noisySuburbSoundscapeGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Summer Festival",
+    "url": "https://mynoise.net/NoiseMachines/summerFestivalSoundscapeGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Bonjour Paris",
+    "url": "https://mynoise.net/NoiseMachines/parisCityAmbienceGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Rome",
+    "url": "https://mynoise.net/NoiseMachines/romeAndVaticanCityAmbienceGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Montréal",
+    "url": "https://mynoise.net/NoiseMachines/montrealCityAmbienceGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Mexico City",
+    "url": "https://mynoise.net/NoiseMachines/mexicoCityAmbienceGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Traffic Noise",
+    "url": "https://mynoise.net/NoiseMachines/trafficNoiseGenerator.php",
+    "category": "Urban",
+    "is_tonal": false
+  },
+  {
+    "name": "Singing Bowls",
+    "url": "https://mynoise.net/NoiseMachines/singingBowlsDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Time Still",
+    "url": "https://mynoise.net/NoiseMachines/timeStillMusicalDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Tibetan Choir",
+    "url": "https://mynoise.net/NoiseMachines/throatSingingDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Orchestron",
+    "url": "https://mynoise.net/NoiseMachines/orchestronDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Ice World",
+    "url": "https://mynoise.net/NoiseMachines/iceDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Northern Lights",
+    "url": "https://mynoise.net/NoiseMachines/northernLightsDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Hum Drone",
+    "url": "https://mynoise.net/NoiseMachines/customHummingGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Aeolian",
+    "url": "https://mynoise.net/NoiseMachines/aeolianDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Tanpura",
+    "url": "https://mynoise.net/NoiseMachines/tanpuraDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Indian Drone",
+    "url": "https://mynoise.net/NoiseMachines/indianDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Bagpipes",
+    "url": "https://mynoise.net/NoiseMachines/bagpipesDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Shruti Box",
+    "url": "https://mynoise.net/NoiseMachines/shrutiBoxDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Didgeridrone",
+    "url": "https://mynoise.net/NoiseMachines/didgeridooDroneGenerator.php",
+    "category": "Tonal Drones",
+    "is_tonal": true
+  },
+  {
+    "name": "Polyrhythms",
+    "url": "https://mynoise.net/NoiseMachines/polyrhythmBeatGenerator.php",
+    "category": "Patterns",
+    "is_tonal": false
+  },
+  {
+    "name": "Tuned Cave",
+    "url": "https://mynoise.net/NoiseMachines/contemplationCaveGenerator.php",
+    "category": "Patterns",
+    "is_tonal": true
+  },
+  {
+    "name": "Temple Bells",
+    "url": "https://mynoise.net/NoiseMachines/windchimesGenerator.php",
+    "category": "Patterns",
+    "is_tonal": true
+  },
+  {
+    "name": "Flock Of Flutter",
+    "url": "https://mynoise.net/NoiseMachines/dustersOnKraftNoisefieldGenerator.php",
+    "category": "Patterns",
+    "is_tonal": false
+  },
+  {
+    "name": "Cave Chime",
+    "url": "https://mynoise.net/NoiseMachines/stalactitesCaveChimeSoundscapeGenerator.php",
+    "category": "Patterns",
+    "is_tonal": true
+  },
+  {
+    "name": "Clockwork",
+    "url": "https://mynoise.net/NoiseMachines/clockTickTockNoiseGenerator.php",
+    "category": "Patterns",
+    "is_tonal": false
+  },
+  {
+    "name": "Wooden Chimes",
+    "url": "https://mynoise.net/NoiseMachines/bambooChimesGenerator.php",
+    "category": "Patterns",
+    "is_tonal": true
+  },
+  {
+    "name": "Number Stations",
+    "url": "https://mynoise.net/NoiseMachines/numberStationsRadioNoiseGenerator.php",
+    "category": "Patterns",
+    "is_tonal": true
+  },
+  {
+    "name": "Sea Organ",
+    "url": "https://mynoise.net/NoiseMachines/seaOrganSoundscapeGenerator.php",
+    "category": "Patterns",
+    "is_tonal": true
+  },
+  {
+    "name": "HAM Radio",
+    "url": "https://mynoise.net/NoiseMachines/amateurRadioNoiseGenerator.php",
+    "category": "Patterns",
+    "is_tonal": true
+  },
+  {
+    "name": "Shortwaves",
+    "url": "https://mynoise.net/NoiseMachines/shortwaveRadioTunerNoiseGenerator.php",
+    "category": "Patterns",
+    "is_tonal": false
+  },
+  {
+    "name": "Mechanical Hive",
+    "url": "https://mynoise.net/NoiseMachines/timpaniMalletCardboardBoxNoisefieldGenerator.php",
+    "category": "Patterns",
+    "is_tonal": false
+  },
+  {
+    "name": "African Trance",
+    "url": "https://mynoise.net/NoiseMachines/africanPolyrhythmTranceGenerator.php",
+    "category": "Patterns",
+    "is_tonal": false
+  },
+  {
+    "name": "Planet Earth",
+    "url": "https://mynoise.net/NoiseMachines/goldenRecordVoyagerEarthSoundGenerator.php",
+    "category": "Patterns",
+    "is_tonal": false
+  }
+]
