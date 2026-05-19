@@ -53,7 +53,7 @@ def extract_soundscape_metadata(html: str) -> list[dict[str, object]]:
     return scenes
 
 
-def build_index_manifest(driver: WebDriver) -> list[dict[str, object]]:
+def build_index_manifest(driver: WebDriver) -> None:
     """Scrape the index page and save all available soundscape metadata."""
     open_url(driver, INDEX_URL)
 
@@ -66,5 +66,3 @@ def build_index_manifest(driver: WebDriver) -> list[dict[str, object]]:
         f"Saved {len(index_manifest)} soundscapes "
         f"to: {output_file.resolve()}"
     )
-
-    return index_manifest
