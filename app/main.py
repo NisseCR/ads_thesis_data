@@ -107,9 +107,16 @@ def wait_for_page_to_load(driver: WebDriver) -> None:
     )
 
 
-def wait_random_seconds(min_seconds: float = 1, max_seconds: float = 3) -> None:
+def wait_random_seconds(min_seconds: float = 1, max_seconds: float = 2) -> None:
     """Pause execution for a random duration between min_seconds and max_seconds."""
     time.sleep(random.uniform(min_seconds, max_seconds))
+
+
+def open_url(driver: WebDriver, url: str) -> None:
+    """Open a URL and wait until the page has fully loaded."""
+    driver.get(url)
+    wait_for_page_to_load(driver)
+    wait_random_seconds()
 
 
 def find_login_email_input(driver: WebDriver) -> WebElement:
@@ -141,28 +148,63 @@ def is_login_form_available(driver: WebDriver) -> bool:
 
 def login(driver: WebDriver) -> None:
     """Open the login page, enter the configured email, and submit the login form."""
-    driver.get(LOGIN_URL)
-    wait_for_page_to_load(driver)
-    wait_random_seconds()
+    open_url(driver, LOGIN_URL)
 
     if not is_login_form_available(driver):
         print("Login form was not found. Existing cookies/session may already be valid.")
         return
 
+    # Clear the email input field and enter the configured email.
     email_input = find_login_email_input(driver)
     email_input.clear()
     email_input.send_keys(get_login_email())
     wait_random_seconds()
 
+    # Submit the login form.
     submit_button = find_login_submit_button(driver)
     submit_button.click()
 
+    # Wait for the login form to load.
     wait_for_page_to_load(driver)
+    wait_random_seconds()
+
+
+def is_logged_in_html(html: str) -> bool:
+    """Return True if the home page HTML indicates an authenticated session."""
+    return LOGGED_IN_MARKER in html
+
+
+def is_logged_out_html(html: str) -> bool:
+    """Return True if the home page HTML indicates the user still needs to log in."""
+    return LOGGED_OUT_MARKER in html and LOGGED_IN_MARKER not in html
+
+
+def open_home_page_logged_in(driver: WebDriver) -> None:
+    """Open the home page and log in first if the current session is logged out."""
+    open_url(driver, HOME_URL)
+    html = driver.page_source
+
+    if is_logged_in_html(html):
+        print("Already logged in.")
+        return
+
+    if is_logged_out_html(html):
+        print("Not logged in yet. Logging in now.")
+        login(driver)
+        open_url(driver, HOME_URL)
+
+        if not is_logged_in_html(driver.page_source):
+            raise RuntimeError("Login completed, but the home page still appears logged out.")
+
+        print("Logged in successfully.")
+        return
+
+    raise RuntimeError("Could not determine login state from the home page HTML.")
 
 
 def index_scenes(driver: WebDriver) -> None:
     """Scrape the index page for scene information."""
-    driver.get(HOME_URL)
+    open_home_page_logged_in(driver)
 
 
 def main():
@@ -170,11 +212,10 @@ def main():
     driver = create_driver()
 
     try:
-        # login(driver)
         index_scenes(driver)
 
         html = driver.page_source
-        save_text_to_file(get_data_dir() / "home_logged_in.html", html)
+        save_text_to_file(get_data_dir() / "home.html", html)
 
     finally:
         time.sleep(200)
