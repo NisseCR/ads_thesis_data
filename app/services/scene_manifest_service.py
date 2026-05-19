@@ -317,8 +317,9 @@ def process_scene(
 def build_scene_manifests(
     driver: WebDriver,
     index_manifest: list[object],
+    output_file: Path,
 ) -> list[dict[str, object]]:
-    """Build scene manifest entries for all valid scenes in the index manifest."""
+    """Build scene manifest entries and save progress after each valid scene."""
     scene_manifests: list[dict[str, object]] = []
 
     for index, scene in enumerate(index_manifest, start=1):
@@ -334,6 +335,7 @@ def build_scene_manifests(
 
         if scene_manifest:
             scene_manifests.append(scene_manifest)
+            save_scene_manifest(output_file, scene_manifests)
 
     return scene_manifests
 
@@ -345,7 +347,10 @@ def save_scene_manifest(
     """Save scene manifest entries to disk and print the output path."""
     save_json_to_file(output_file, scene_manifests)
 
-    print(f"Saved scene audio manifest to: {output_file.resolve()}")
+    print(
+        f"Saved {len(scene_manifests)} scene manifest entr"
+        f"{'y' if len(scene_manifests) == 1 else 'ies'} to: {output_file.resolve()}"
+    )
 
 
 def build_scene_audio_manifest(driver: WebDriver) -> None:
@@ -360,6 +365,6 @@ def build_scene_audio_manifest(driver: WebDriver) -> None:
     """
     input_file, output_file = get_scene_manifest_paths()
     index_manifest = load_index_manifest(input_file)
-    scene_manifests = build_scene_manifests(driver, index_manifest)
+    scene_manifests = build_scene_manifests(driver, index_manifest, output_file)
 
     save_scene_manifest(output_file, scene_manifests)
