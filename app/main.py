@@ -212,36 +212,62 @@ def open_index_page_logged_in(driver: WebDriver) -> None:
     raise RuntimeError("Could not determine login state from the index page HTML.")
 
 
-def extract_soundscape_urls(html: str) -> list[str]:
-    """Extract unique myNoise soundscape URLs from the index page HTML."""
+def extract_soundscape_manifest(html: str) -> list[dict[str, object]]:
+    """Extract soundscape metadata from the index page HTML."""
     soup = BeautifulSoup(html, "html.parser")
-    urls: list[str] = []
+    scenes: list[dict[str, object]] = []
+    seen_urls: set[str] = set()
 
-    for link in soup.select('a[href^="/NoiseMachines/"]'):
-        href = link.get("href")
+    for section in soup.select("div.generator-list"):
+        category_heading = section.find("h1")
+        category = category_heading.get_text(strip=True) if category_heading else None
 
-        if not href:
-            continue
+        for link in section.select('a[href^="/NoiseMachines/"]'):
+            href = link.get("href")
 
-        absolute_url = urljoin(INDEX_URL, href)
+            if not href:
+                continue
 
-        if absolute_url not in urls:
+            absolute_url = urljoin(INDEX_URL, href)
 
-            urls.append(absolute_url)
+            if absolute_url in seen_urls:
+                continue
 
-    return urls
+            seen_urls.add(absolute_url)
+
+            scene_container = link.find_parent("span")
+            is_tonal = False
+
+            if scene_container:
+                is_tonal = scene_container.select_one(
+                    'i[alt="tone"][onclick*="TON"]'
+                ) is not None
+
+            scenes.append(
+                {
+                    "name": link.get_text(strip=True),
+                    "url": absolute_url,
+                    "category": category,
+                    "is_tonal": is_tonal,
+                }
+            )
+
+    return scenes
 
 
 def build_soundscape_manifest(driver: WebDriver) -> None:
-    """Scrape the index page and save all available soundscape URLs."""
+    """Scrape the index page and save all available soundscape metadata."""
     open_index_page_logged_in(driver)
 
-    soundscape_urls = extract_soundscape_urls(driver.page_source)
-    output_file = get_data_dir() / "manifest"/ "soundscape_manifest.json"
+    soundscape_manifest = extract_soundscape_manifest(driver.page_source)
+    output_file = get_data_dir() / "manifest" / "soundscape_manifest.json"
 
-    save_json_to_file(output_file, soundscape_urls)
+    save_json_to_file(output_file, soundscape_manifest)
 
-    print(f"Saved {len(soundscape_urls)} soundscape URLs to: {output_file.resolve()}")
+    print(
+        f"Saved {len(soundscape_manifest)} soundscapes "
+        f"to: {output_file.resolve()}"
+    )
 
 
 def main():

@@ -220,7 +220,11 @@ __marimo__/
 # Data
 data/*
 !data/.gitkeep
-!data/manifest/
-!data/manifest/.gitkeep
+
 !data/html/
+data/html/*
 !data/html/.gitkeep
+
+!data/manifest/
+data/manifest/*
+!data/manifest/.gitkeep
