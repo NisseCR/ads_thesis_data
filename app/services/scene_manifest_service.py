@@ -6,7 +6,7 @@ from typing import Any
 
 from selenium.webdriver.remote.webdriver import WebDriver
 
-from app.browser import open_url
+from app.browser import open_url, wait_random_seconds
 from app.files import load_json_from_file, save_json_to_file
 from app.paths import get_data_dir
 
@@ -51,6 +51,32 @@ def load_index_manifest(input_file: Path) -> list[object]:
         raise RuntimeError(f"Expected a list in {input_file}")
 
     return index_manifest
+
+
+def load_existing_scene_manifest(output_file: Path) -> list[dict[str, object]]:
+    """Load existing scene manifest entries, or return an empty list if missing."""
+    if not output_file.exists():
+        return []
+
+    scene_manifest = load_json_from_file(output_file)
+
+    if not isinstance(scene_manifest, list):
+        raise RuntimeError(f"Expected a list in {output_file}")
+
+    return [
+        scene
+        for scene in scene_manifest
+        if isinstance(scene, dict)
+    ]
+
+
+def get_scraped_scene_urls(scene_manifests: list[dict[str, object]]) -> set[str]:
+    """Return normalized scene URLs already present in the scene manifest."""
+    return {
+        str(scene.get("url", "")).strip()
+        for scene in scene_manifests
+        if str(scene.get("url", "")).strip()
+    }
 
 
 def get_scene_name(scene: dict[str, object]) -> str:
@@ -193,11 +219,6 @@ def extract_audio_files_from_performance_logs(
     return sort_audio_files(list(audio_files_by_url.values()))
 
 
-def wait_for_scene_audio_requests() -> None:
-    """Wait briefly for audio requests that occur after page load completes."""
-    time.sleep(4)
-
-
 def capture_scene_audio_files(driver: WebDriver, url: str) -> list[dict[str, str]]:
     """Open a scene URL and capture the audio files requested by that page.
 
@@ -210,7 +231,7 @@ def capture_scene_audio_files(driver: WebDriver, url: str) -> list[dict[str, str
     """
     clear_performance_logs(driver)
     open_url(driver, url)
-    wait_for_scene_audio_requests()
+    wait_random_seconds(10, 25)
 
     return extract_audio_files_from_performance_logs(driver)
 
@@ -273,6 +294,15 @@ def print_scene_capture_summary(audio_files: list[dict[str, str]]) -> None:
     )
 
 
+def print_scene_already_scraped(
+    index: int,
+    total_scenes: int,
+    scene_name: str,
+) -> None:
+    """Print a progress message when skipping an already scraped scene."""
+    print(f"[{index}/{total_scenes}] Already scraped, skipping: {scene_name}")
+
+
 def should_skip_scene(scene: object) -> bool:
     """Return whether an index manifest entry should be skipped."""
     if not isinstance(scene, dict):
@@ -319,11 +349,22 @@ def build_scene_manifests(
     index_manifest: list[object],
     output_file: Path,
 ) -> list[dict[str, object]]:
-    """Build scene manifest entries and save progress after each valid scene."""
-    scene_manifests: list[dict[str, object]] = []
+    """Build missing scene manifest entries and save progress after each scene."""
+    scene_manifests = load_existing_scene_manifest(output_file)
+    scraped_scene_urls = get_scraped_scene_urls(scene_manifests)
 
     for index, scene in enumerate(index_manifest, start=1):
         if should_skip_scene(scene):
+            continue
+
+        if not isinstance(scene, dict):
+            continue
+
+        name = get_scene_name(scene)
+        url = get_scene_url(scene)
+
+        if url in scraped_scene_urls:
+            print_scene_already_scraped(index, len(index_manifest), name)
             continue
 
         scene_manifest = process_scene(
@@ -335,6 +376,7 @@ def build_scene_manifests(
 
         if scene_manifest:
             scene_manifests.append(scene_manifest)
+            scraped_scene_urls.add(url)
             save_scene_manifest(output_file, scene_manifests)
 
     return scene_manifests
@@ -346,11 +388,6 @@ def save_scene_manifest(
 ) -> None:
     """Save scene manifest entries to disk and print the output path."""
     save_json_to_file(output_file, scene_manifests)
-
-    print(
-        f"Saved {len(scene_manifests)} scene manifest entr"
-        f"{'y' if len(scene_manifests) == 1 else 'ies'} to: {output_file.resolve()}"
-    )
 
 
 def build_scene_audio_manifest(driver: WebDriver) -> None:

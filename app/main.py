@@ -15,9 +15,6 @@ def manifest_index() -> None:
         ensure_log_in(driver)
         build_index_manifest(driver)
 
-        # html = driver.page_source
-        # save_text_to_file(get_data_dir() / "html" / "index.html", html)
-
     finally:
         driver.quit()
 
@@ -33,4 +30,5 @@ def manifest_scenes() -> None:
 
 
 def main() -> None:
+    manifest_index()
     manifest_scenes()
