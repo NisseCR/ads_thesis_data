@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import time
 import random
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
@@ -24,7 +25,7 @@ ELEMENT_WAIT_SECONDS = 10
 EMAIL_ENV_VAR = "MYNOISE_EMAIL"
 
 # URLs
-HOME_URL = "https://mynoise.net/noiseMachines.php"
+INDEX_URL = "https://mynoise.net/noiseMachines.php"
 LOGIN_URL = "https://mynoise.net/login.php"
 
 # CSS selectors
@@ -58,6 +59,15 @@ def save_text_to_file(file_path: Path, text: str) -> None:
     """Write text content to a file, creating parent directories if needed."""
     file_path.parent.mkdir(parents=True, exist_ok=True)
     file_path.write_text(text, encoding="utf-8")
+
+
+def save_json_to_file(file_path: Path, data: object) -> None:
+    """Write JSON data to a file, creating parent directories if needed."""
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    file_path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def load_environment() -> None:
@@ -170,18 +180,18 @@ def login(driver: WebDriver) -> None:
 
 
 def is_logged_in_html(html: str) -> bool:
-    """Return True if the home page HTML indicates an authenticated session."""
+    """Return True if the index page HTML indicates an authenticated session."""
     return LOGGED_IN_MARKER in html
 
 
 def is_logged_out_html(html: str) -> bool:
-    """Return True if the home page HTML indicates the user still needs to log in."""
+    """Return True if the index page HTML indicates the user still needs to log in."""
     return LOGGED_OUT_MARKER in html and LOGGED_IN_MARKER not in html
 
 
-def open_home_page_logged_in(driver: WebDriver) -> None:
-    """Open the home page and log in first if the current session is logged out."""
-    open_url(driver, HOME_URL)
+def open_index_page_logged_in(driver: WebDriver) -> None:
+    """Open the index page and log in first if the current session is logged out."""
+    open_url(driver, INDEX_URL)
     html = driver.page_source
 
     if is_logged_in_html(html):
@@ -191,20 +201,47 @@ def open_home_page_logged_in(driver: WebDriver) -> None:
     if is_logged_out_html(html):
         print("Not logged in yet. Logging in now.")
         login(driver)
-        open_url(driver, HOME_URL)
+        open_url(driver, INDEX_URL)
 
         if not is_logged_in_html(driver.page_source):
-            raise RuntimeError("Login completed, but the home page still appears logged out.")
+            raise RuntimeError("Login completed, but the index page still appears logged out.")
 
         print("Logged in successfully.")
         return
 
-    raise RuntimeError("Could not determine login state from the home page HTML.")
+    raise RuntimeError("Could not determine login state from the index page HTML.")
 
 
-def index_scenes(driver: WebDriver) -> None:
-    """Scrape the index page for scene information."""
-    open_home_page_logged_in(driver)
+def extract_soundscape_urls(html: str) -> list[str]:
+    """Extract unique myNoise soundscape URLs from the index page HTML."""
+    soup = BeautifulSoup(html, "html.parser")
+    urls: list[str] = []
+
+    for link in soup.select('a[href^="/NoiseMachines/"]'):
+        href = link.get("href")
+
+        if not href:
+            continue
+
+        absolute_url = urljoin(INDEX_URL, href)
+
+        if absolute_url not in urls:
+
+            urls.append(absolute_url)
+
+    return urls
+
+
+def build_soundscape_manifest(driver: WebDriver) -> None:
+    """Scrape the index page and save all available soundscape URLs."""
+    open_index_page_logged_in(driver)
+
+    soundscape_urls = extract_soundscape_urls(driver.page_source)
+    output_file = get_data_dir() / "manifest"/ "soundscape_manifest.json"
+
+    save_json_to_file(output_file, soundscape_urls)
+
+    print(f"Saved {len(soundscape_urls)} soundscape URLs to: {output_file.resolve()}")
 
 
 def main():
@@ -212,11 +249,10 @@ def main():
     driver = create_driver()
 
     try:
-        index_scenes(driver)
+        build_soundscape_manifest(driver)
 
         html = driver.page_source
-        save_text_to_file(get_data_dir() / "home.html", html)
+        save_text_to_file(get_data_dir() / "html" / "index.html", html)
 
     finally:
-        time.sleep(200)
         driver.quit()
