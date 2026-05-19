@@ -9,7 +9,7 @@ from app.files import save_json_to_file
 from app.paths import get_data_dir
 
 
-def extract_soundscape_manifest(html: str) -> list[dict[str, object]]:
+def extract_soundscape_metadata(html: str) -> list[dict[str, object]]:
     """Extract soundscape metadata from the index page HTML."""
     soup = BeautifulSoup(html, "html.parser")
     scenes: list[dict[str, object]] = []
@@ -53,18 +53,18 @@ def extract_soundscape_manifest(html: str) -> list[dict[str, object]]:
     return scenes
 
 
-def build_soundscape_manifest(driver: WebDriver) -> list[dict[str, object]]:
+def build_index_manifest(driver: WebDriver) -> list[dict[str, object]]:
     """Scrape the index page and save all available soundscape metadata."""
     open_url(driver, INDEX_URL)
 
-    soundscape_manifest = extract_soundscape_manifest(driver.page_source)
-    output_file = get_data_dir() / "manifest" / "soundscape_manifest.json"
+    index_manifest = extract_soundscape_metadata(driver.page_source)
+    output_file = get_data_dir() / "manifest" / "index_manifest.json"
 
-    save_json_to_file(output_file, soundscape_manifest)
+    save_json_to_file(output_file, index_manifest)
 
     print(
-        f"Saved {len(soundscape_manifest)} soundscapes "
+        f"Saved {len(index_manifest)} soundscapes "
         f"to: {output_file.resolve()}"
     )
 
-    return soundscape_manifest
+    return index_manifest

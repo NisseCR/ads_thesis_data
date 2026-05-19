@@ -15,3 +15,8 @@ def save_json_to_file(file_path: Path, data: object) -> None:
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+
+def load_json_from_file(file_path: Path) -> object:
+    """Read JSON data from a file."""
+    return json.loads(file_path.read_text(encoding="utf-8"))

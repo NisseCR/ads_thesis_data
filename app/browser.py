@@ -20,12 +20,21 @@ def create_chrome_options() -> Options:
 
     options.add_argument(f"--user-data-dir={profile_path}")
 
+    options.set_capability(
+        "goog:loggingPrefs",
+        {
+            "performance": "ALL",
+        },
+    )
+
     return options
 
 
 def create_driver() -> WebDriver:
     """Create and return a Selenium Chrome WebDriver instance."""
-    return webdriver.Chrome(options=create_chrome_options())
+    driver = webdriver.Chrome(options=create_chrome_options())
+    driver.execute_cdp_cmd("Network.enable", {})
+    return driver
 
 
 def wait_for_page_to_load(driver: WebDriver) -> None:
