@@ -6,6 +6,7 @@ from app.services.login_service import ensure_log_in
 from app.services.index_manifest_service import build_index_manifest
 from app.services.scene_manifest_service import build_scene_manifest
 from app.services.audio_manifest_service import build_audio_manifest
+from app.services.scraper_service import scrape_audio_folders
 
 
 def manifest_index() -> None:
@@ -37,4 +38,5 @@ def manifest_audio() -> None:
 def main() -> None:
     # manifest_index()
     # manifest_scenes()
-    manifest_audio()
+    # manifest_audio()
+    scrape_audio_folders()

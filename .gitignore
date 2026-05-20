@@ -225,6 +225,10 @@ data/*
 data/html/*
 !data/html/.gitkeep
 
+!data/audio/
+data/audio/*
+!data/audio/.gitkeep
+
 !data/manifest/
 !data/manifest/*
 !data/manifest/.gitkeep
