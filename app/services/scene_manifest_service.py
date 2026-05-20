@@ -1,6 +1,5 @@
 import json
 import re
-import time
 from pathlib import Path
 from typing import Any
 
@@ -400,7 +399,7 @@ def save_scene_manifest(
     save_json_to_file(output_file, scene_manifests)
 
 
-def build_scene_audio_manifest(driver: WebDriver) -> None:
+def build_scene_manifest(driver: WebDriver) -> None:
     """Build a manifest of ``.ogg`` audio files used by each soundscape scene.
 
     This function orchestrates the full scene-manifest workflow:

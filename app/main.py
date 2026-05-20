@@ -4,7 +4,8 @@ from app.files import save_text_to_file
 from app.paths import get_data_dir
 from app.services.login_service import ensure_log_in
 from app.services.index_manifest_service import build_index_manifest
-from app.services.scene_manifest_service import build_scene_audio_manifest
+from app.services.scene_manifest_service import build_scene_manifest
+from app.services.audio_manifest_service import build_audio_manifest
 
 
 def manifest_index() -> None:
@@ -24,11 +25,16 @@ def manifest_scenes() -> None:
     driver = create_driver()
 
     try:
-        build_scene_audio_manifest(driver)
+        build_scene_manifest(driver)
     finally:
         driver.quit()
 
+def manifest_audio() -> None:
+    load_environment()
+    build_audio_manifest()
+
 
 def main() -> None:
-    manifest_index()
-    manifest_scenes()
+    # manifest_index()
+    # manifest_scenes()
+    manifest_audio()

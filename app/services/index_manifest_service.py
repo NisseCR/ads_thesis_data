@@ -1,3 +1,4 @@
+from pathlib import Path
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -53,6 +54,16 @@ def extract_soundscape_metadata(html: str) -> list[dict[str, object]]:
     return scenes
 
 
+def print_index_manifest_summary(
+    index_manifest: list[dict[str, object]],
+    output_file: Path,
+) -> None:
+    """Print how many soundscape entries were inferred."""
+    print(
+        f"Saved {len(index_manifest)} soundscapes "
+        f"to: {output_file.resolve()}"
+    )
+
 def build_index_manifest(driver: WebDriver) -> None:
     """Scrape the index page and save all available soundscape metadata."""
     open_url(driver, INDEX_URL)
@@ -61,8 +72,4 @@ def build_index_manifest(driver: WebDriver) -> None:
     output_file = get_data_dir() / "manifest" / "index_manifest.json"
 
     save_json_to_file(output_file, index_manifest)
-
-    print(
-        f"Saved {len(index_manifest)} soundscapes "
-        f"to: {output_file.resolve()}"
-    )
+    print_index_manifest_summary(index_manifest, output_file)
