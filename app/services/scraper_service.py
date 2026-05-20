@@ -60,6 +60,48 @@ def load_audio_manifest(manifest_file: Path) -> list[dict[str, object]]:
     ]
 
 
+def is_audio_folder_complete(
+    folder_entry: dict[str, object],
+    audio_output_dir: Path,
+) -> bool:
+    """Return True when every manifest-listed file for a folder exists locally."""
+    folder = folder_entry.get("folder")
+    audio_files = folder_entry.get("audio_files")
+
+    if not isinstance(folder, str):
+        return False
+
+    if not isinstance(audio_files, list):
+        return False
+
+    valid_audio_files = [
+        audio_file
+        for audio_file in audio_files
+        if isinstance(audio_file, dict)
+    ]
+
+    if not valid_audio_files:
+        return False
+
+    folder_output_dir = audio_output_dir / folder
+
+    for audio_file in valid_audio_files:
+        filename = audio_file.get("filename")
+
+        if not isinstance(filename, str):
+            return False
+
+        output_file = folder_output_dir / filename
+
+        if not output_file.exists():
+            return False
+
+        if output_file.stat().st_size <= 0:
+            return False
+
+    return True
+
+
 def build_audio_request(url: str) -> Request:
     """Build a browser-like request for one audio file."""
     return Request(
@@ -196,31 +238,49 @@ async def scrape_audio_folders_async(
 
     total_successful_files = 0
     total_files = 0
+    scraped_folder_count = 0
 
     for folder_index, folder_entry in enumerate(audio_manifest, start=1):
+        folder = folder_entry.get("folder")
+
+        if is_audio_folder_complete(folder_entry, audio_output_dir):
+            print(
+                f"Skipping complete folder: {folder} "
+                f"({folder_index}/{len(audio_manifest)})"
+            )
+            continue
+
         successful_count, file_count = await scrape_audio_folder(
             folder_entry,
             audio_output_dir,
         )
 
+        scraped_folder_count += 1
         total_successful_files += successful_count
         total_files += file_count
 
-        if folder_index >= len(audio_manifest):
+        has_remaining_incomplete_folder = any(
+            not is_audio_folder_complete(next_folder_entry, audio_output_dir)
+            for next_folder_entry in audio_manifest[folder_index:]
+            if isinstance(next_folder_entry, dict)
+        )
+
+        if not has_remaining_incomplete_folder:
             continue
 
         jitter = random.randint(0, folder_wait_jitter_seconds)
         wait_seconds = folder_wait_seconds + jitter
 
         print(
-            f"Waiting {wait_seconds}s before next folder "
-            f"({folder_index}/{len(audio_manifest)} complete)..."
+            f"Waiting {wait_seconds}s before next incomplete folder "
+            f"({folder_index}/{len(audio_manifest)} checked)..."
         )
         await asyncio.sleep(wait_seconds)
 
     print(
         f"\nAudio scraping complete: "
-        f"{total_successful_files}/{total_files} file(s) available locally."
+        f"{total_successful_files}/{total_files} newly checked file(s), "
+        f"{scraped_folder_count} folder(s) scraped this run."
     )
 
 
